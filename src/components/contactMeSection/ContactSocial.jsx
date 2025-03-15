@@ -2,9 +2,6 @@ import SingleContactSocial from "./SingleContactSocial";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { IoLogoWhatsapp } from "react-icons/io5";
-import { AiOutlineSkype } from "react-icons/ai";
-
-
 
 const ContactSocial = () => {
   return (

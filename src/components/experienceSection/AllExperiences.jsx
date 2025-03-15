@@ -26,17 +26,6 @@ const experiences = [
       "Generating new ideas for better user experience.",
     ],
   },
-  
-  // {
-  //   job: "Course Instructor",
-  //   company: "Sprints",
-  //   date: "2024 - Present",
-  //   responsibilities: [
-  //     "Teaching JavaScript, React and TailwindCSS.",
-  //     "Participating in preparing course materials.",
-  //     "Helping students through their way in learning web development technologies.",
-  //   ],
-  // },
 ];
 
 const AllExperiences = () => {
