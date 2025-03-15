@@ -5,7 +5,7 @@ import { LuArrowDownRight } from "react-icons/lu";
 const HeroText = () => {
 
   const handleDownload = () => {
-    const resumeUrl = "/THULASIMANI G.pdf"; // Ensure your file is in the 'public' folder
+    const resumeUrl = "pdf/THULASIMANI G.pdf"; // Ensure your file is in the 'public' folder
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.setAttribute("download", "Thulasimani.pdf"); // Set the file name
