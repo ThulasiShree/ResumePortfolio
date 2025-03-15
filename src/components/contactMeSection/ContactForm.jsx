@@ -19,9 +19,14 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_p5nyom8", "template_w8aga4k", form.current, {
-        publicKey: "6mN5bdiYNkcHeS3jW",
-      })
+      .sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID, // Replace hardcoded service ID
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID, // Replace hardcoded template ID
+        form.current,
+        {
+          publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY, // Replace hardcoded public key
+        }
+      )
       .then(
         () => {
           setEmail("");
