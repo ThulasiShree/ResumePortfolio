@@ -5,9 +5,9 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: "Software Developer",
+    job: "Junior Software Developer",
     company: "Tripalive.me Techonology Pvt Ltd., Bangalore",
-    date: "Jan, 2024 - July, 2024",
+    date: "Jan, 2022 - June, 2024",
     responsibilities: [
       "Developing User Interfaces",
       "Ensuring Cross-Browser Compatibility",
@@ -18,7 +18,7 @@ const experiences = [
   {
     job: "Software Developer",
     company: "Pixalive Techonology Services Pvt Ltd., Bangalore",
-    date: "Aug, 2024 - Present",
+    date: "July, 2024 - Present",
     responsibilities: [
       "Implementing reusable components.",
       "Participating in large scale application.",

@@ -5,10 +5,10 @@ import { LuArrowDownRight } from "react-icons/lu";
 const HeroText = () => {
 
   const handleDownload = () => {
-    const resumeUrl = "pdf/THULASIMANI G.pdf"; // Ensure your file is in the 'public' folder
+    const resumeUrl = "pdf/THULASIMANI G.pdf"; 
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.setAttribute("download", "Thulasimani.pdf"); // Set the file name
+    link.setAttribute("download", "Thulasimani.pdf"); 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -23,7 +23,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="lg:text-2xl sm:text-xl  uppercase text-lightGrey "
       >
-        Front-End Developer
+        Software Developer
       </motion.h2>
       <motion.h1
         variants={fadeIn("right", 0.4)}
@@ -42,7 +42,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-        A Passionate Software Developer <br /> with 1+ years of
+        A Passionate Software Developer <br /> with 3+ years of
         experience.
       </motion.p>
       <button onClick={handleDownload} className=" px-4 py-4 rounded-full text-xl font-bold font-body text-white border-cyan border flex items-center gap-1 bg-gradient-to-r  from-darkCyan to-orange transition-all duration-500 hover:scale-110 hover:border-orange cursor-pointer hover:shadow-cyanShadow">
